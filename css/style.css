@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Saira:wght@700&display=swap');
+
+
+*{
+    font-family: 'Mulish', sans-serif;
+}
+
+body{
+    min-height: 2000px;
+}
+
+html{
+        scroll-behavior: smooth;
+}
+
+/* TOPOGRAFIE */
+h1{
+    line-height: 50px;
+    font-family: 'Saira', sans-serif;
+}
+
+h2{
+    line-height: 50px;
+    font-family: 'Saira', sans-serif;
+}
+
+/* GENERAL */
+section{
+    padding: 50px 0;
+}
+
+.section-grey{
+    background-color: #F2F4F7;
+}
+
+.section-grey-{
+    background-color: #F2F4F7;
+}
+
+.btn{
+    border-radius: 4px;
+    display: block;
+    padding: 11px 21px;
+    background-color: #0A192D;
+    color: white;
+    width: 92px;
+    text-decoration: none;
+}
+
+.container{
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0px;
+    padding: 50px 0;
+    margin: auto;
+    max-width: 1150px;
+    position: relative;
+}
+
+span{
+    border-radius: 50px;
+    padding: 10px;
+    border: 3px solid #00DCB9;
+}
+
+/* HEADER */
+header{
+    padding: 60px 0 50px 0;
+}
+
+.block-header{
+    display: flex;
+}
+
+.block-header-right{
+    width: 30%;
+}
+
+.block-header-left{
+    width: 70%;
+}
+
+.block-header-left > h1{
+
+}
+
+.block-header-left > li{
+    list-style: none;
+}
+
+.block-header-left > li > ul{
+    padding-left: 0;
+}
+
+.btn-header{
+    margin-top: 45px;
+}
+
+.block-header-img{
+    max-height: 167px;
+    max-width: 239px;
+    display: block;
+    margin-top: 35px;
+    float: right;
+}
+
+/* SUB INFO */
+.block-subinfo{
+    display: flex;
+}
+
+.block-info{
+    text-align: center;
+    width: 34%;
+    padding: 30px;
+}
+
+.block-info > h4{
+    margin-bottom: 0px;
+}
+
+.block-info > p{
+    margin-top: 8px;
+}
+
+/* BIG INFO */
+.block-biginfo{
+    display: flex;
+}
+
+.block-biginfo-left{
+    width: 40%;
+}
+
+.block-biginfo-right{
+    width: 60%;
+}
+
+.block-biginfo-img{
+    display: block;
+    max-width: 367px;
+    max-height: 259px;
+    margin-top: 40px;
+}
+
+/* BLOCK OFFERS */
+.block-offers-excerpt > h2{
+    margin-bottom: 0px;
+}
+
+.block-offers-excerpt > p{
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.block-offers{
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.block-offers-info > p{
+    margin-top: -15px;
+    margin-left: 25px;
+}
+
+/* BLOCK EXPECTED */
+.block-expected-excerpt > h2{
+
+}
+
+.block-offers-excerpt > p{
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.block-offers{
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.block-offers-info > p{
+    margin-top: -15px;
+    margin-left: 20px;
+}
+
+.block-expected-list > ul{
+    padding-left: 22px;
+}
+
+/* ANIMATION */
+.block-info{
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    margin: 30px;
+}
+
+.one{
+    animation: ani1 15s infinite;
+}
+
+.two{
+    animation: ani2 15s infinite;
+}
+
+.three{
+    animation: ani3 15s infinite;
+}
+
+@keyframes ani1{
+    0%{
+        opacity: 0;
+    }
+    10%{
+
+        opacity: 1;
+    }
+    20%{
+        opacity: 0;
+    }
+}
+
+@keyframes ani2{
+    20%{
+        opacity: 0;
+    }
+    30%{
+
+        opacity: 1;
+    }
+    40%{
+        opacity: 0;
+    }
+}
+
+@keyframes ani3{
+    40%{
+        opacity: 0;
+    }
+    50%{
+
+        opacity: 1;
+    }
+    60%{
+        opacity: 0;
+    }
+}
